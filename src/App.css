@@ -91,3 +91,21 @@ footer button:disabled {
 #pageInfo {
   font-size: 1.1rem;
 }
+
+@media screen and (max-width: 768px) {
+  .controls {
+    flex-direction: column;
+    gap: 8px;
+    max-width: fit-content;
+    margin: 0 auto;
+  }
+
+  .movie-card {
+    width: 150px;
+  }
+
+  .movie-card img {
+    height: 225px;
+  }
+}
+
