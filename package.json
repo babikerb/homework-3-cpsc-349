@@ -9,7 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -35,5 +35,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^6.5.1",
+    "eslint-config-react-app": "^7.0.1",
+    "svgo": "^2.8.0"
+  },
+  "browser": {
+    "path": false,
+    "fs": false,
+    "os": false
   }
 }
